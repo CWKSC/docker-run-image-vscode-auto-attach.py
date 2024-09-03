@@ -23,6 +23,8 @@ This Python script provides a convenient way to run a Docker container and autom
    - `<image_name>`: Name of the Docker image you want to run.
    - `[<additional_args>]` (optional): Additional arguments to pass to the Docker container.
 
+The `--volume` is `./workspace/:/workspace/`
+
 ### Example
 ```bash
 python docker-run-image-vscode-auto-attach.py my_docker_image --env DEBUG=1 --network host
